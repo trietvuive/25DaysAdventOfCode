@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Advent.cpp" />
     <ClCompile Include="Day1Part1.cpp" />
     <ClCompile Include="Day1Part2.cpp" />
   </ItemGroup>
