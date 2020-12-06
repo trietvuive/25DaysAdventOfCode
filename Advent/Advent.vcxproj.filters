@@ -27,5 +27,14 @@
     <ClCompile Include="Day3Part1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Advent\Advent\Day5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Advent\Advent\Day6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

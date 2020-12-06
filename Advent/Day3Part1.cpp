@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include<vector>
 #include<algorithm>
 #include<string>
@@ -46,4 +46,4 @@ int main()
     cout << tree1 << " " << tree3 << " " << tree5 << " " << tree7 << " " << treeskip << endl;
     cout << tree1*tree3*tree5*tree7*treeskip;
     return 0;
-}
+}*/
