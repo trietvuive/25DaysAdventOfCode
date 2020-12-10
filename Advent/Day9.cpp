@@ -1,4 +1,4 @@
-#include<set>
+/*#include<set>
 #include <iostream>
 #include<vector>
 #include<string>
@@ -51,4 +51,4 @@ vector<int>subsetSum(vector<int>list, int sum)
             curr_sum -= list[start++];
         }
     }
-}
+}*/
