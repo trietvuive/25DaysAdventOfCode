@@ -1,4 +1,4 @@
-#include<set>
+/*#include<set>
 #include <iostream>
 #include<vector>
 #include<string>
@@ -82,4 +82,4 @@ int main()
 	}
 	cout << occupiedSeat << endl;
 
-}
+}*/
