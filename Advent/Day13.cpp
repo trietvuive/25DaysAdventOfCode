@@ -1,4 +1,4 @@
-#include<set>
+/*#include<set>
 #include <iostream>
 #include<vector>
 #include<string>
@@ -80,4 +80,4 @@ int main()
 	}
 	result %= product;
 	cout << result % product << endl;
-}
+}*/
