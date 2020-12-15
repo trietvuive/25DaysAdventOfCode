@@ -1,4 +1,4 @@
-#include<set>
+/*#include<set>
 #include <iostream>
 #include<vector>
 #include<string>
@@ -89,4 +89,4 @@ int main()
 		result += pair.second;
 	}
 	cout << result << endl;
-}
+}*/
