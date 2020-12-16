@@ -1,4 +1,4 @@
-#include<set>
+/*#include<set>
 #include <iostream>
 #include<vector>
 #include<string>
@@ -9,9 +9,10 @@
 #include<math.h>
 #include<complex>
 #include<bitset>
+#include<chrono>
 #define ll long long;
-using namespace std;
-unordered_map<long long, long long>tracker; 
+using namespace std; 
+using namespace std::chrono;
 vector<string> split(const string& str, const string& delim)
 {
 	vector<string> tokens;
@@ -28,6 +29,7 @@ vector<string> split(const string& str, const string& delim)
 }
 int main()
 {
+	unordered_map<long long, long long>tracker;
 	string line;
 	getline(cin, line);
 	long long last = -1;
@@ -43,6 +45,7 @@ int main()
 	curr = last;
 	while (index < 30000000)
 	{
+		auto start = high_resolution_clock::now();
 		last = curr;
 		if (!tracker[last])
 			curr = 0;
@@ -50,8 +53,12 @@ int main()
 			curr = index-tracker[last];
 		index++;
 		tracker[last] = index-1;
+		auto stop = high_resolution_clock::now();
+		auto duration = duration_cast<nanoseconds>(stop - start);
+		cout << "Time taken by function: "
+			<< duration.count() << " nanoseconds" << endl;
 	}
 	cout << curr << endl;
 	return 0;
 
-}
+}*/
