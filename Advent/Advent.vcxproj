@@ -139,8 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Advent\Advent\Day5.cpp" />
-    <ClCompile Include="..\..\Advent\Advent\Day6.cpp" />
+    <ClCompile Include="Day5.cpp" />
+    <ClCompile Include="Day6.cpp" />
     <ClCompile Include="Day10.cpp" />
     <ClCompile Include="Day11.cpp" />
     <ClCompile Include="Day12.cpp" />
@@ -148,7 +148,7 @@
     <ClCompile Include="Day14.cpp" />
     <ClCompile Include="Day15.cpp" />
     <ClCompile Include="Day16.cpp" />
-    <ClCompile Include="Day17.cpp" />
+    <ClCompile Include="Day18.cpp" />
     <ClCompile Include="Day1Part1.cpp" />
     <ClCompile Include="Day1Part2.cpp" />
     <ClCompile Include="Day2Part1.cpp" />
